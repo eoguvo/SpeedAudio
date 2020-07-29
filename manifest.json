@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "SpeedAudio",
+    "description": "a simple extension that speeds up your whatsapp audios",
+    "version": "0.2",
+    "icons": { 
+        "16": "./assets/logo16.png",
+        "48": "./assets/logo48.png",
+       "128": "./assets/logo128.png" },
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/"],
+            "js": ["index.js"]
+        }
+    ]
+}
