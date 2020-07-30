@@ -4,7 +4,7 @@
 
 this is a simple extension, they add in the menu of [whatsapp web](https://web.whatsapp.com) a button, that give you the POWER of increase audios speed, they go from 1x to 3x with steps of .5x
 
-## how to activy
+## how to activate
 
 i don't published bc i don't wanna get deep in extensions
 
@@ -42,3 +42,5 @@ sometimes they don't work bc there no audio in screen, make sure you have audios
 if you modify the code and the changes don't come to your browser try delete the extension and drop your folder again
 
 > sorry for the bad english :(
+
+> bc = because
