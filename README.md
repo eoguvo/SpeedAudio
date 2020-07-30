@@ -22,11 +22,11 @@ in terminal use:
 
 somes shortcuts to browsers extensions here:
 
-[Google Chrome](chrome://extensions/)
+Google Chrome: (chrome://extensions/)
 
-[Opera](opera://extensions/)
+Opera: (opera://extensions/)
 
-[edge](edge://opera://extensions/)
+edge: (edge://opera://extensions/)
 
 > if your browser isn't in the list try BrowserName://extensions
 
