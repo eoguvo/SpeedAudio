@@ -26,7 +26,7 @@ Google Chrome: (chrome://extensions/)
 
 Opera: (opera://extensions/)
 
-edge: (edge://opera://extensions/)
+edge: (edge://extensions/)
 
 > if your browser isn't in the list try BrowserName://extensions
 
