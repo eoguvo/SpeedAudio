@@ -1,0 +1,33 @@
+{
+  "name": "chrome_extension-whatsapp_faster_audios",
+  "version": "1.0.0",
+  "description": "## About",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack -w",
+    "build": "webpack build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.25.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "css-loader": "^5.1.2",
+    "style-loader": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gustavo-Henrique-br/chromeExtension_WhatsAppFasterAudios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gustavo-Henrique-br/chromeExtension_WhatsAppFasterAudios/issues"
+  },
+  "homepage": "https://github.com/Gustavo-Henrique-br/chromeExtension_WhatsAppFasterAudios#readme"
+}
