@@ -84,7 +84,7 @@ $ npm run deploy
 
 <ol>
     <li>
-        access your browserextensions tab(&lt;browsername&gt;://extensions)
+        access your browser extensions tab(&lt;browsername&gt;://extensions)
     </li>
     <li>
         activate developer mode if it is unactivated (generally a switch button in the top of the page)
