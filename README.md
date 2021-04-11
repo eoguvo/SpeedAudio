@@ -72,9 +72,9 @@ $ yarn dev
 $ npm run dev
 
 # Just building
-$ yarn deploy
+$ yarn build
 # or
-$ npm run deploy
+$ npm run build
 ```
 
 <div id="setting" align="center">

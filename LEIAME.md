@@ -74,9 +74,9 @@ $ yarn dev
 $ npm run dev
 
 # Apenas buildando
-$ yarn deploy
+$ yarn build
 # ou
-$ npm run deploy
+$ npm run build
 ```
 
 <div id="setting" align="center">
