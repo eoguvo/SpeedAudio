@@ -1,48 +1,107 @@
-# chrome extension - add a feature in whatsapp
+<div align="center">
+    <img src=".github/banner.png" alt="header SpeedAudio extension"/>
+</div>
 
-## About
+<div align="center">
+    <a href="https://github.com/Gustavo-Henrique-br" >
+        <img src="https://img.shields.io/badge/author-Gustavo%20Henrique-blue?style=for-the-badge" alt="author - Gustavo Henrique" />
+    </a>
+    <a href="https://github.com/Gustavo-Henrique-br/SpeedAudio/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Gustavo-Henrique-br/SpeedAudio?style=for-the-badge"></a>
+</div>
 
-this is a simple extension, they add in the menu of [whatsapp web](https://web.whatsapp.com) a button, that give you the POWER of increase audios speed, they go from 1x to 3x with steps of .5x
+<div align="center">
+    <a href="https://github.com/Gustavo-Henrique-br/SpeedAudio/blob/master/LEIAME.md">
+        <img height="30" src="https://img.shields.io/static/v1?label=&message=PT-BR&color=blue&style=for-the-badge" alt="language - Português" />
+    </a>
+</div>
 
-## how to activate
+<div align="center">
+    <h1>⚡ Speed Audio ⚡</h1>
+    <p>Extension for <a href="https://web.whatsapp.com/">
+      <b>whatsapp web</b>
+    </a> that speed up your audios</p>
+</div>
 
-i don't published bc i don't wanna get deep in extensions
+<hr>
 
-soooooooo
-here a step by step:
+<div align="center">
+    <h2>🎉 SpeedAudio 0.3 🚀 Ready! 🎉</h2>
+</div>
 
-### step 1 - clone repository in your machine
+Table of contents
+=================
+<!--ts-->
+   * [Running](#rodando)
+   * How to use
+      * [Prerequisites](#pre-requisitos)
+      * [Installing](#install)
+   * [Techs](#techs)
+<!--te-->
 
-in terminal use:
+<div id="rodando" align="center">
+    <h1>🎲 Running</h1>
+</div>
+
+<div id="pre-requisitos" align="center">
+    <h4>Prerequisites</h4>
+</div>
+
+Before start, you need have installed in your machine:
+[Git](https://git-scm.com) (to clone the repository).
+
+<div id="install" align="center">
+    <h4>
+        follow those steps to install:
+    </h4>
+</div>
 
 ```bash
- git clone https://github.com/Gustavo-Henrique-br/chromeExtension_WhatsAppFasterAudios.git
+# clone the repository in your machine
+$ git clone https://github.com/Gustavo-Henrique-br/SpeedAudio.git
+
+# If you wanna change the source code follow the lines below, otherwise, just ignore
+
+# Install the dependencies:
+$ yarn
+# or
+$ npm install
+
+# Running webpack in watch mode
+$ yarn dev
+# or
+$ npm run dev
+
+# Just building
+$ yarn deploy
+# or
+$ npm run deploy
 ```
-### step 2 - insert into your browser
 
-somes shortcuts to browsers extensions here:
+<div id="setting" align="center">
+    <h1>🚀 Setting up</h1>
 
-Google Chrome: (chrome://extensions/)
+</div>
 
-Opera: (opera://extensions/)
+<ol>
+    <li>
+        access your browserextensions tab(&lt;browsername&gt;://extensions)
+    </li>
+    <li>
+        activate developer mode if it is unactivated (generally a switch button in the top of the page)
+    </li>
+    <li>
+        drag your folder anywhere
+    </li>
+    <li>
+        access <a href="https://web.whatsapp.com/">
+      <b>whatsapp web</b>
+    </a> and BOOM there it is
+    </li>
+</ol>
 
-edge: (edge://extensions/)
+<div id="techs" align="center">
+    <h1>🛠 Technologies</h1>
+</div>
 
-> if your browser isn't in the list try BrowserName://extensions
-
-You need access your browser extensions, activate the developer mode (usually is a switch button in the top)
-and drag and drop your cloned folder.
-
-### finish
-
-so access you [whatsapp web](https://web.whatsapp.com) and *BOOM* there it is
-
-## considerations
-
-sometimes they don't work bc there no audio in screen, make sure you have audios in screen and try again
-
-if you modify the code and the changes don't come to your browser try delete the extension and drop your folder again
-
-> sorry for the bad english :(
-
-> bc = because
+- [Extensions](https://developer.chrome.com/docs/extensions/)
+- [Webpack](https://webpack.js.org/)
